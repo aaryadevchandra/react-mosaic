@@ -94,3 +94,44 @@
 .bodywise-font-yellow{
   color: #e6a351;
 }
+
+.apply-btn{
+  border-radius: 30px;
+  border: 0px;
+  background-color: #81caa1;
+}
+
+
+@keyframes hoverapplybtnkf {
+    from{
+      background-color: #81caa1;
+    }
+
+    to{
+        background-color: #b8e0c8;
+    }
+}
+
+@keyframes revhoverapplybtnkf {
+  from{
+    background-color: #b8e0c8;
+  }
+
+  to{
+      background-color:#81caa1 ;
+  }
+}
+
+
+.apply-btn:hover{
+  animation: hoverapplybtnkf 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.apply-btn:not(:hover){
+  animation: revhoverapplybtnkf 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
