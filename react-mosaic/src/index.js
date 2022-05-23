@@ -7,7 +7,7 @@ import NavbarComponent from './components/Navbar';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' element={<NavbarComponent />}/>
+      <Route path='/' element={<HomePageComponent />}/>
     </Routes>
   </BrowserRouter>
 , document.getElementById("root"));

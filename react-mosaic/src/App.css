@@ -1,12 +1,96 @@
 @font-face {
   font-family: "Quiet Sans";
-  src: url(./fonts/Flatit\ \ QuietSansSemiBold.otf);
+  src: url(./fonts/QuietSans/Flatit\ \ QuietSansSemiBold.otf);
+}
+
+@font-face {
+  font-family: 'Quiet Sans Light';
+  src: url(./fonts/QuietSans/Flatit\ \ QuietSansLight.otf);
+}
+
+@font-face {
+  font-family: 'Caros';
+  src: url(./fonts/Caros/cretype\ \ Caros.otf);
+}
+
+
+.light-font{
+  font-family: 'Quiet Sans Light';
 }
 
 *{
   font-family: "Quiet Sans";
 }
 
-navfont-color{
-  color: green;
+.fontcolor{
+  color: #898989 !important;
+}
+
+@keyframes navbutton-color-anim {
+    from{
+      background-color: #1a1b1f;
+    }
+
+    to{
+        background-color: #32343a;
+    }
+}
+
+.navbutton{
+  background-color: #1a1b1f;
+  border: 0px;
+}
+
+.navbutton:hover{
+  animation: navbutton-color-anim 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.navbar-links{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+@keyframes link-hover-color-anim {
+  from{
+    color: #898989;
+  }
+
+  to{
+    color: #47494e;
+  }
+}
+
+.navbar-links:hover{
+  color: #47494e;
+  animation: link-hover-color-anim 0.3s;
+  animation-timing-function: ease-in-out;
+
+}
+
+.navbar-sticky{
+  top: 0;
+  position: sticky;
+}
+
+.dark-green-font{
+  color: #0b4d3f;
+}
+
+.grey-font{
+  color: #47494e;
+}
+
+.input-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 8px !important;
+}
+
+.manmatters-font-blue{
+  color: #2f55ab;
+}
+
+.bodywise-font-yellow{
+  color: #e6a351;
 }
