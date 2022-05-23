@@ -4,30 +4,32 @@ import '../App.css';
 const NavbarComponent = () => {
     return (
         <>
-            <div className='container-fluid navfont-color' style={{border: '1px solid blue'}}>
-                <div className='row' style={{border: '1px solid green'}}>
+            <div className='container-fluid fontcolor navbar-sticky' style={{border: '1px solid blue'}}>
+                <div className='row text-center' style={{border: '1px solid green', padding: '20px'}}>
                 <div className='col' style={{border: '1px solid yellow'}}>
-
+                    
                 </div>
 
-                <div className='col' style={{border: '1px solid yellow', padding: '10px'}}>
-                    HOME
+                <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
+                    <a className='navbar-links' href='/home'>HOME</a>
                 </div>
 
-                <div className='col' style={{border: '1px solid yellow', padding: '10px'}}>
-                    PLATFORMS
+                <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
+                    <a className='navbar-links' href='/home'>PLATFORMS</a>
                 </div>
 
-                <div className='col' style={{border: '1px solid yellow', padding: '10px'}}>
-                    CAREERS
+                <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
+                    <a className='navbar-links' href='/home'>CAREER</a>
                 </div>
 
-                <div className='col' style={{border: '1px solid yellow', padding: '10px'}}>
-                        FELLOWSHIP
+                <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
+                        <a className='navbar-links' href='/home'>FELLOWSHIP</a>
                 </div>
 
-                <div className='col' style={{border: '1px solid yellow', padding: '10px'}}>
-                    CONTACT US 
+                <div className='col' style={{border: '1px solid yellow', fontSize: 'small'}}>
+                <button className='light-font navbutton float-end'  style={{color: 'white', fontSize: 'small', paddingLeft:'20px', paddingRight: '20px', paddingTop: '15px', paddingBottom: '15px'}}>
+                    C O N T A C T&nbsp;&nbsp;&nbsp;&nbsp;U S
+                </button>
                 </div>
     
                 </div>
