@@ -150,3 +150,11 @@
 html{
   scroll-behavior: smooth;
 }
+
+.footer{
+  border-top: 2px solid #80b898 !important;
+}
+
+.divbg{
+  background-image: 'https://i.imgur.com/yX2gKvR.png';
+}

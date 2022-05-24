@@ -3,8 +3,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const FooterComponent = () =>{
     return(
         <>
-            <div className='container-fluid' style={{marginTop: '5vh', border: '1px solid blue'}}>
-                <div className='row text-center' style={{padding: '30px'}}>
+            <div className='container-fluid footer' style={{marginTop: '10vh', backgroundColor: '#e8fbf1'}}>
+                <div className='row text-center' style={{padding: '50px'}}>
                     <div className='col'>
                         <span style={{textDecoration: 'underline'}}>Office Locations</span>
                         <br/>
