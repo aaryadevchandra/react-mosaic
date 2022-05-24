@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 const NavbarComponent = () => {
+
+
     return (
         <>
             <div className='container-fluid fontcolor navbar-sticky' style={{backgroundColor: 'white', zIndex: '2'}}>
@@ -11,15 +13,15 @@ const NavbarComponent = () => {
                 </div>
 
                 <div className='col-1 my-auto' style={{ fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='/'>HOME</a>
+                    <a id="navhomelink" className='navbar-links' href='/'>HOME</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{ fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='#platforms'>PLATFORMS</a>
+                    <a id="navplatformslink" className='navbar-links' href='#platforms'>PLATFORMS</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{ fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='#careers'>CAREER</a>
+                    <a id="navcareerslink" className='navbar-links' href='#careers'>CAREER</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{ fontSize: 'small', margin: '5px'}}>

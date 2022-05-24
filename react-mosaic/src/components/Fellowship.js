@@ -37,7 +37,51 @@ At the end of the stint, the option is to pick up a full time role in one of the
                     <br/>
                     <br/>
                     Apart from me, here is the brief list of leaders you will get a chance to work with during the course of the fellowship
+                    <br/>
+                    Business & Category
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/abmohan/">Abhinav Mohan</a>
+                    <br/>
+                    <br/>
+                    Revenue & Growth
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/sachin-singla-aa05736/">Sachin Singla</a>
+                    <br/>
+                    <br/>
+                    Operations & Finance
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/dhyaneshshah/">Dhyanesh Shah</a>
+                    <br/>
+                    <br/>
+                    Telehealth Platform
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/mohnish-karjodkar-0a58a79/">Mohnish Karjodkar</a>
+                    <br/>
+                    <br/>
+                    Product
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/kumar-tushar-xd/">Kumar Tushar</a>
+                    <br/>
+                    <br/>
+                    Engineering
+                    <br/>
+                    <a className='navbar-links' href="https://www.linkedin.com/in/shouvikgr/">Shouvik Ghosh Roy</a>
 
+                    <br/>
+                    <br/>
+                    More about our leadership team can be discovered 
+                    <a className='navbar-links' href="https://www.linkedin.com/company/mosaicwellness"> here</a>
+
+                    <br/>
+                    <br/>
+                    The 2022 batch intake is now open. Request all those who have graduated in 2021 or 2022 to consider applying by mailing careers@mosaicwellness.in with the subject line as “MFP Application” and writing in as to why you are keen to pursue the program in less than 100 words. No CVs or Attachments. Period. Deadline for applications is 30th April 2022.
+Oh yes, this is a paid fellowship :) a full time job. We might not be able to promise overseas travel or global brand exposure today, but what we can promise is a steep learning curve, hands on experience of building & scaling a business, loads and loads of fun and the immense satisfaction of solving for real consumer needs and making a difference.
+
+                    <br/>
+                    <br/>
+                    Regards
+                    <br/>
+                    Revant​​​​​​
 
                     </div>
                 </div>

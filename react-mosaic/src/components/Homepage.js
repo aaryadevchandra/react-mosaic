@@ -7,6 +7,8 @@ import FooterComponent from './Footer';
 
 
 const HomePageComponent = () =>{
+
+
     return (
         <>
         <NavbarComponent / >

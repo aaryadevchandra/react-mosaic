@@ -2,6 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 const ContactUsComponent = ()=> {
 
+    const sendMail = () => {
+        alert('hey! This feature has not been setup yet : D Please try again later')
+    }
+
     return (
         <>
             <div className='container-fluid' style={{marginTop: '5vh'}}>
@@ -64,7 +68,7 @@ const ContactUsComponent = ()=> {
 
                     <div className='row text-center' style={{marginTop: '5vh', marginBottom: '2vh'}}>
                         <div className='col'>
-                        <button className='btn btn-lg btn-block apply-btn input-shadow' style={{paddingRight:'10vw', paddingLeft: '10vw'}}>
+                        <button className='btn btn-lg btn-block apply-btn input-shadow' style={{paddingRight:'10vw', paddingLeft: '10vw'}} onClick={sendMail}>
                             Submit
                         </button>
                         </div>
