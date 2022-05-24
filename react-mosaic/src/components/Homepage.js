@@ -2,6 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarComponent from './Navbar';
 import ContactUsComponent from './ContactUs';
+import '../App.css'
+import FooterComponent from './Footer';
+
 const HomePageComponent = () =>{
     return (
         <>
@@ -156,6 +159,8 @@ We have open positions within brand design, tech and product design. If you feel
 
         
         <ContactUsComponent />
+
+        <FooterComponent />
 
         </>
     )

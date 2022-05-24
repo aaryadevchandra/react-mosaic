@@ -62,7 +62,7 @@ const ContactUsComponent = ()=> {
                     </div>
 
 
-                    <div className='row text-center' style={{marginTop: '5vh'}}>
+                    <div className='row text-center' style={{marginTop: '5vh', marginBottom: '2vh'}}>
                         <div className='col'>
                         <button className='btn btn-lg btn-block apply-btn input-shadow' style={{paddingRight:'10vw', paddingLeft: '10vw'}}>
                             Submit

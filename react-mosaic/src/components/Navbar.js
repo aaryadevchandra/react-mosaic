@@ -4,8 +4,8 @@ import '../App.css';
 const NavbarComponent = () => {
     return (
         <>
-            <div className='container-fluid fontcolor navbar-sticky' style={{border: '1px solid blue', backgroundColor: 'white', zIndex: '2'}}>
-                <div className='row text-center' style={{border: '1px solid green', padding: '20px'}}>
+            <div className='container-fluid fontcolor navbar-sticky' style={{backgroundColor: 'white', zIndex: '2'}}>
+                <div className='row text-center' style={{padding: '20px'}}>
                 <div className='col' style={{border: '1px solid yellow'}}>
                     
                 </div>
