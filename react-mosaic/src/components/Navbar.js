@@ -27,9 +27,9 @@ const NavbarComponent = () => {
                 </div>
 
                 <div className='col' style={{border: '1px solid yellow', fontSize: 'small'}}>
-                <button className='light-font navbutton float-end'  style={{color: 'white', fontSize: 'small', paddingLeft:'20px', paddingRight: '20px', paddingTop: '15px', paddingBottom: '15px'}}>
+                <a href="#contactus"><button className='light-font navbutton float-end'  style={{color: 'white', fontSize: 'small', paddingLeft:'20px', paddingRight: '20px', paddingTop: '15px', paddingBottom: '15px'}}>
                     C O N T A C T&nbsp;&nbsp;&nbsp;&nbsp;U S
-                </button>
+                </button></a>
                 </div>
     
                 </div>

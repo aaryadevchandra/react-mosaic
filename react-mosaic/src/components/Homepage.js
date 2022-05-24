@@ -5,13 +5,14 @@ import ContactUsComponent from './ContactUs';
 import '../App.css'
 import FooterComponent from './Footer';
 
+
 const HomePageComponent = () =>{
     return (
         <>
         <NavbarComponent / >
 
         <div className='container-fluid' style={{border: '1px solid blue'}}>
-            <div className='container-fluid' style={{border: '1px solid blue', marginTop: '15vh', marginBottom: '15vh', marginLeft: '2vw'}}>
+            <div className='container' style={{border: '1px solid blue', marginTop: '15vh', marginBottom: '15vh', marginLeft: '2vw'}}>
                 <div className='row' style={{border: '1px solid green'}}>
                     <div className='col dark-green-font' style={{border: '1px solid yellow', fontSize: '3vw'}}>
                     Simplifying
@@ -32,9 +33,15 @@ const HomePageComponent = () =>{
             </div>
         </div>
 
+
+        <div id="platforms" className='container' style={{marginBottom: '5vh'}}></div> {/*careers scrolling placeholder*/}
+        <br></br>
+        <br></br>
+        <br></br>
+
         {/* our platforms starts */}
 
-        <div id="platforms" className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
+        <div className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
             <div className='row text-center' style={{border: '1px solid green', marginBottom: '4vh'}}>
                 <div className='col' style={{fontSize: '5vh'}}>
                     Our Platforms
@@ -68,47 +75,47 @@ const HomePageComponent = () =>{
 
         {/* our platforms ends */}
 
-        <div id="values" className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
-            <div className='row text-center' style={{border: '1px solid green', marginBottom: '4vh'}}>
+        <div id="values" className='container-fluid' style={{marginTop: '5vh'}}>
+            <div className='row text-center' style={{marginBottom: '4vh'}}>
                 <div className='col' style={{fontSize: '5vh'}}>
                     Our Values
                 </div>
             </div>
 
-            <div className='row text-center justify-content-center' style={{border: '1px solid green'}}>
-                <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px', marginRight: '1vw'}}>
+            <div className='row text-center justify-content-center'>
+                <div className='col-2 card shadow my-auto' style={{padding : '25px', marginRight: '1vw'}}>
                 Authentic with all 
                 <br/>
                 stakeholders
                 </div>
 
-                <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px', marginRight: '1vw'}}>
+                <div className='col-2 card shadow my-auto' style={{padding : '25px', marginRight: '1vw'}}>
                 Bias for 
                 <br/>
                 action
                 </div>
 
-                <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px'}}>
+                <div className='col-2 card shadow my-auto' style={{padding : '25px'}}>
                 Passionate to do what 
                 <br/>
                 is best for the users
                 </div>  
             </div>
 
-            <div className='row text-center justify-content-center' style={{border: '1px solid green', marginTop: '2vh'}}>
-            <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px', marginRight: '1vw'}}>
+            <div className='row text-center justify-content-center' style={{marginTop: '2vh'}}>
+            <div className='col-2 card shadow my-auto' style={{padding : '25px', marginRight: '1vw'}}>
                 Authentic with all 
                 <br/>
                 stakeholders
                 </div>
 
-                <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px', marginRight: '1vw'}}>
+                <div className='col-2 card shadow my-auto' style={{padding : '25px', marginRight: '1vw'}}>
                 Bias for 
                 <br/>
                 action
                 </div>
 
-                <div className='col-2 card shadow my-auto' style={{border: '1px solid yellow', padding : '25px'}}>
+                <div className='col-2 card shadow my-auto' style={{padding : '25px'}}>
                 Passionate to do what 
                 <br/>
                 is best for the users
@@ -119,7 +126,7 @@ const HomePageComponent = () =>{
         
         {/* milestones start */}
 
-        <div id="milestons" className='container-fluid' style={{marginTop: '7vh'}}>
+        <div id="milestones" className='container-fluid' style={{marginTop: '7vh'}}>
             <div className='row text-center' style={{fontSize: '5vh'}}>
                 <div className='col'>
                     Milestones
@@ -134,8 +141,11 @@ const HomePageComponent = () =>{
         </div>
 
         {/* milestones end */}
-
-        <div id="careers" className='container-fluid' style={{marginTop: '5vh'}}>
+        <div id="careers" className='container' style={{marginBottom: '5vh'}}></div> {/*careers scrolling placeholder*/}
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className='container-fluid' style={{marginTop: '5vh'}}>
             <div className='row text-center justify-content-center' style={{fontSize: '5vh'}}>
                 <div className='col-7'>
                     Careers
@@ -158,6 +168,10 @@ We have open positions within brand design, tech and product design. If you feel
         {/* Careers end */}
 
         
+        <div id="contactus" className='container' style={{marginBottom: '5vh'}}></div> {/*careers scrolling placeholder*/}
+        <br></br>
+        <br></br>
+        <br></br>
         <ContactUsComponent />
 
         <FooterComponent />

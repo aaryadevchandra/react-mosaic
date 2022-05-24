@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import FooterComponent from './Footer';
 import NavbarComponent from './Navbar';
 
 const FellowshipComponent = () => {
@@ -43,6 +44,10 @@ At the end of the stint, the option is to pick up a full time role in one of the
                 
             
             
+
+
+
+            <FooterComponent />
             </div>
         </>
     )

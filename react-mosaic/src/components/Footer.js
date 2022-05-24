@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "bootstrap-icons/font/bootstrap-icons.css";
 const FooterComponent = () =>{
     return(
         <>
@@ -24,7 +24,7 @@ const FooterComponent = () =>{
                     <div className='col'>
                         <span style={{textDecoration: 'underline'}}>Follow Us</span>
                         <br/>
-
+                        <a href="https://www.linkedin.com/company/mosaicwellness/"><i class="bi bi-linkedin"> </i></a>
                     </div>
                 </div>
             </div>

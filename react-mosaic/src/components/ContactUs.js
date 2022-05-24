@@ -4,8 +4,8 @@ const ContactUsComponent = ()=> {
 
     return (
         <>
-            <div className='container-fluid' style={{marginTop: '5vh', border: '1px solid blue'}}>
-            <div className='row justify-content-center' style={{border: '1px solid green'}}>
+            <div className='container-fluid' style={{marginTop: '5vh'}}>
+            <div className='row justify-content-center'>
                 <div className='col-7 card input-shadow' style={{fontSize: '5vh'}}>
                     <p className='text-center'>Say hello!</p>
                     <p className='light-font text-center' style={{fontSize: '2.5vh'}}>Write to us & we will get back to you.</p>
