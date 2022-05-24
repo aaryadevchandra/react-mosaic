@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarComponent from './Navbar';
+import ContactUsComponent from './ContactUs';
 const HomePageComponent = () =>{
     return (
         <>
@@ -30,7 +31,7 @@ const HomePageComponent = () =>{
 
         {/* our platforms starts */}
 
-        <div className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
+        <div id="platforms" className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
             <div className='row text-center' style={{border: '1px solid green', marginBottom: '4vh'}}>
                 <div className='col' style={{fontSize: '5vh'}}>
                     Our Platforms
@@ -64,7 +65,7 @@ const HomePageComponent = () =>{
 
         {/* our platforms ends */}
 
-        <div className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
+        <div id="values" className='container-fluid' style={{border: '1px solid blue', marginTop: '5vh'}}>
             <div className='row text-center' style={{border: '1px solid green', marginBottom: '4vh'}}>
                 <div className='col' style={{fontSize: '5vh'}}>
                     Our Values
@@ -115,7 +116,7 @@ const HomePageComponent = () =>{
         
         {/* milestones start */}
 
-        <div className='container-fluid' style={{marginTop: '7vh'}}>
+        <div id="milestons" className='container-fluid' style={{marginTop: '7vh'}}>
             <div className='row text-center' style={{fontSize: '5vh'}}>
                 <div className='col'>
                     Milestones
@@ -131,7 +132,7 @@ const HomePageComponent = () =>{
 
         {/* milestones end */}
 
-        <div className='container-fluid' style={{marginTop: '5vh'}}>
+        <div id="careers" className='container-fluid' style={{marginTop: '5vh'}}>
             <div className='row text-center justify-content-center' style={{fontSize: '5vh'}}>
                 <div className='col-7'>
                     Careers
@@ -153,83 +154,8 @@ We have open positions within brand design, tech and product design. If you feel
 
         {/* Careers end */}
 
-        <div className='container-fluid' style={{marginTop: '5vh', border: '1px solid blue'}}>
-            <div className='row justify-content-center' style={{border: '1px solid green'}}>
-                <div className='col-7 card input-shadow' style={{fontSize: '5vh'}}>
-                    <p className='text-center'>Say hello!</p>
-                    <p className='light-font text-center' style={{fontSize: '2.5vh'}}>Write to us & we will get back to you.</p>
-
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div className='col light-font' style={{fontSize: '2vh'}}>
-                            NAME
-                        </div>
-                    </div>
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div  className='form-group'>
-                            <input className='form-control shadow-none'></input>
-                        </div>
-                    </div>
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div className='col light-font' style={{fontSize: '2vh', marginTop: '2.5vh'}}>
-                            EMAIL ADDRESS
-                        </div>
-                    </div>
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div  className='form-group'>
-                            <input className='form-control shadow-none'></input>
-                        </div>
-                    </div>
-
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div className='col light-font' style={{fontSize: '2vh', marginTop: '2.5vh'}}>
-                            PHONE
-                        </div>
-                    </div>
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div  className='form-group'>
-                            <input className='form-control shadow-none'></input>
-                        </div>
-                    </div>
-
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div className='col light-font' style={{fontSize: '2vh', marginTop: '2.5vh'}}>
-                            YOUR MESSAGE
-                        </div>
-                    </div>
-
-                    <div className='row' style={{marginLeft: '1vw', marginRight: '1vw'}}>
-                        <div  className='form-group'>
-                            <input className='form-control shadow-none'></input>
-                        </div>
-                    </div>
-
-
-                    <div className='row text-center' style={{marginTop: '5vh'}}>
-                        <div className='col'>
-                        <button className='btn btn-lg btn-block apply-btn input-shadow' style={{paddingRight:'10vw', paddingLeft: '10vw'}}>
-                            Submit
-                        </button>
-                        </div>
-                    </div>
-
-               
-                </div>
-            </div>
         
-
-            
-
-        
-        </div>
-
-        
+        <ContactUsComponent />
 
         </>
     )
