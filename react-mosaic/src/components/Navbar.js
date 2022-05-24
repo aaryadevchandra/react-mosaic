@@ -11,19 +11,19 @@ const NavbarComponent = () => {
                 </div>
 
                 <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='/home'>HOME</a>
+                    <a className='navbar-links' href='/'>HOME</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='/home'>PLATFORMS</a>
+                    <a className='navbar-links' href='#platforms'>PLATFORMS</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
-                    <a className='navbar-links' href='/home'>CAREER</a>
+                    <a className='navbar-links' href='#careers'>CAREER</a>
                 </div>
 
                 <div className='col-1 my-auto' style={{border: '1px solid yellow', fontSize: 'small', margin: '5px'}}>
-                        <a className='navbar-links' href='/home'>FELLOWSHIP</a>
+                        <a className='navbar-links' href='/fellowship'>FELLOWSHIP</a>
                 </div>
 
                 <div className='col' style={{border: '1px solid yellow', fontSize: 'small'}}>
