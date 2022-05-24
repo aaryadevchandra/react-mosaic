@@ -135,3 +135,17 @@
   animation-fill-mode: forwards;
 }
 
+
+@keyframes my-box-transition {
+  from {
+    background-color: red;
+  }
+
+  to{
+    background-color: #e6a351;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
